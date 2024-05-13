@@ -1,0 +1,49 @@
+body {
+    background-color: #41A4F4;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  svg {
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+  }
+  
+  .FollowMe {
+      position: fixed;
+      top: 5%;
+      left: 5%;
+      background-image: url("https://smalinux.github.io/myImg.jpg");
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background-repeat:no-repeat;
+      background-size:contain;
+      background-position:center;
+      cursor: pointer;
+  }
+  
+  
+  #slider {
+    width: 50%;
+    background-color: #222;
+    display: inline-block;
+     cursor:all-scroll;
+  }
+  
+  #slider, #slider a {
+    background-image: none;
+    border: 1px solid #555;
+  }
+  #slider a {
+    background-color: #444;
+  }
